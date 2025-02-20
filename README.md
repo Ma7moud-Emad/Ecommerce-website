@@ -1,8 +1,39 @@
-# React + Vite
+# E-Commerce Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Demo [....]
 
-Currently, two official plugins are available:
+## 📖 Definition
+An **e-commerce website** is an online platform that enables  individuals to buy  goods over the internet. This project is a full-stack web application built to handle product listings, user authentication, secure payments, order management, and more.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## ✨ Features
+- **User Authentication**: Secure signup/login with JWT .
+- **Product Catalog**: Browse products with categories.
+- **Shopping Cart**: Add/remove items and adjust quantities.
+- **Checkout & Payments**: Integration with Stripefor transactions.
+- **Order History**: Track past purchases and order statuses.
+- **Product Reviews**: Users can rate and review items.
+- **Responsive Design**: Optimized for mobile and desktop.
+
+---
+
+## 🛠️ Tech Stack
+- **Frontend**: React.js.
+- **Authentication**: JSON Web Tokens (JWT)
+- **Payment Gateway**: Stripe API 
+- **Tools**: Git, Postman, npm
+- **Libaries**: Formik, Axios, Yup, Bootstrap, 
+tosta, Loader spinner, Query, Slick ,Router and Sweetalertr2
+
+---
+
+## 🚀 Installation
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Ma7moud-Emad/Ecommerce-website.git
+   cd ecommerce-website
+2. code .
+3. npm install 
+4. npm run dev
+
