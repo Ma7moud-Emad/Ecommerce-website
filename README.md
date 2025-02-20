@@ -1,5 +1,3 @@
-(src/assets/images/signin.png)
-
 # E-Commerce Website
 
 Live Demo [....]
