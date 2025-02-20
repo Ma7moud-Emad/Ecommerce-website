@@ -1,0 +1,9 @@
+footer {
+  background-color: #eee;
+}
+footer p {
+  color: var(--primary-color);
+}
+footer strong {
+  color: var(--main-color);
+}

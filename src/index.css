@@ -1,0 +1,7 @@
+:root {
+  --main-color: #0aad0a;
+  --primary-color: rgb(107 114 128 / 1);
+}
+body {
+  background-image: url("./assets/images/bgApp.svg");
+}

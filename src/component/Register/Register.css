@@ -1,0 +1,36 @@
+.register .register-info p {
+  color: var(--primary-color);
+}
+.register .register-form form input:focus {
+  border-color: rgb(0, 128, 0, 0.5);
+  box-shadow: 0 0 0 0.25rem rgb(0, 128, 0, 0.25);
+}
+.register .register-form form input[type="submit"] {
+  background-color: var(--main-color);
+  color: white;
+  transition: 0.3s;
+}
+.register .register-form form input[type="submit"]:focus {
+  border-color: none;
+  box-shadow: none;
+}
+.register .register-form form input[disabled] {
+  cursor: not-allowed;
+  &:hover {
+    background-color: #067706;
+  }
+}
+.register .register-form form input:-webkit-autofill {
+  background-color: transparent !important;
+}
+.register .register-form form input + p {
+  color: red;
+}
+.register .register-links a {
+  color: var(--main-color);
+}
+.register img {
+  @media (max-width: 768px) {
+    display: none;
+  }
+}

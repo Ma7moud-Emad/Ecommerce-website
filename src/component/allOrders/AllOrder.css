@@ -1,0 +1,29 @@
+.order {
+  box-shadow: rgba(0, 0, 0, 0.2) 12px 12px 26px,
+    rgba(255, 255, 255, 0.6) -12px -12px 26px;
+}
+.order .order-products {
+  @media (min-width: 768px) {
+    width: 50%;
+  }
+}
+.product-cover {
+  width: 50%;
+  @media (min-width: 768px) {
+    width: 30%;
+  }
+}
+.order .order-products .product .product-info h3,
+.order .order-products .product .product-info h4,
+.order .order-details h4 {
+  color: var(--primary-color);
+}
+.order .order-products .product .product-info h4 span,
+.order .order-details h4 span {
+  color: var(--main-color);
+  font-weight: 700;
+}
+
+.order .order-details h3 {
+  border-bottom: 1px solid var(--main-color);
+}

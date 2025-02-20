@@ -1,0 +1,29 @@
+.cart .cart-info h2,
+.cart .cart-info h3 {
+  color: var(--primary-color);
+}
+
+.cart .cart-info h3 span {
+  color: var(--main-color);
+}
+.cart .cart-products .cart-product {
+  box-shadow: rgba(0, 0, 0, 0.2) 12px 12px 26px,
+    rgba(255, 255, 255, 0.6) -12px -12px 26px;
+}
+
+.cart .cart-products .cart-product h4 {
+  color: var(--main-color);
+}
+.cart .cart-products .cart-product div div h3 {
+  color: var(--primary-color);
+}
+.cart .cart-products .cart-product div div div {
+  color: red;
+  cursor: pointer;
+}
+.cart .cart-products .cart-product button {
+  border: 3px solid var(--main-color);
+}
+.cart > a {
+  background-color: var(--main-color);
+}

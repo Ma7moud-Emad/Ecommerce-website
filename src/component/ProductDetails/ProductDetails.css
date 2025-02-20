@@ -1,0 +1,15 @@
+.product-details .details h4 {
+  color: var(--main-color);
+}
+
+.product-details .details p svg {
+  color: gold;
+}
+.product-details .details * svg {
+  color: red;
+  cursor: pointer;
+}
+.product-details .details button {
+  background-color: var(--main-color);
+  color: white;
+}

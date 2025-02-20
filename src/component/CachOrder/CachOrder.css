@@ -1,0 +1,56 @@
+.order .order-info h1 {
+  color: var(--primary-color);
+}
+.order .order-form form textarea {
+  resize: none;
+}
+.order .order-form form input + p,
+.order .order-form form textarea + p {
+  color: red;
+}
+.order .order-form form input:focus,
+.order .order-form form textarea:focus {
+  border-color: rgb(0, 128, 0, 0.5);
+  box-shadow: 0 0 0 0.25rem rgb(0, 128, 0, 0.25);
+}
+.order .order-form form input[type="submit"] {
+  background-color: var(--main-color);
+  color: white;
+  transition: 0.3s;
+}
+.order .order-form form input[type="submit"]:focus {
+  border-color: none;
+  box-shadow: none;
+}
+.order .order-form form input[type="radio"] {
+  border-color: var(--main-color);
+}
+.order .order-form form label.form-check-label {
+  cursor: pointer;
+  color: var(--main-color);
+}
+.order .order-form form input[type="radio"]:checked {
+  background-color: var(--main-color);
+  border-color: var(--main-color);
+}
+.order .order-form form .loader {
+  background-color: var(--main-color);
+  cursor: not-allowed;
+}
+
+/*  */
+.order .order-form form input[disabled] {
+  cursor: not-allowed;
+}
+.order .order-form form input[disabled]:hover {
+  background-color: #067706;
+}
+/*
+.login .login-links a {
+  color: var(--main-color);
+}
+.login img {
+  @media (max-width: 768px) {
+    display: none;
+  }
+} */

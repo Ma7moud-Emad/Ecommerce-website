@@ -1,0 +1,19 @@
+.brands h2 {
+  color: var(--primary-color);
+}
+.brands .brand {
+  box-shadow: rgba(0, 0, 0, 0.2) 3px 3px 8px,
+    rgba(255, 255, 255, 0.6) -12px -12px 8px;
+  transition: 0.3s;
+}
+.brands .brand h4 {
+  color: var(--main-color);
+  transition: 0.3s;
+}
+.brands .brand:hover {
+  transform: scale(1.1);
+  box-shadow: #0aad0a 3px 3px 8px, rgba(255, 255, 255, 0.6) -12px -12px 8px;
+}
+.brands .brand:hover h4 {
+  color: var(--primary-color);
+}

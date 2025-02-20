@@ -1,0 +1,7 @@
+.content-static img {
+  height: 50%;
+}
+.slick-dots li button:before,
+.slick-dots li.slick-active button:before {
+  color: var(--main-color);
+}

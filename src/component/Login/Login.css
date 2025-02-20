@@ -1,0 +1,40 @@
+.login .login-info p {
+  color: var(--primary-color);
+}
+.login .login-form form input:focus {
+  border-color: rgb(0, 128, 0, 0.5);
+  box-shadow: 0 0 0 0.25rem rgb(0, 128, 0, 0.25);
+}
+.login .login-form form input[type="submit"] {
+  background-color: var(--main-color);
+  color: white;
+  transition: 0.3s;
+}
+.login .login-form form input[type="submit"]:focus {
+  border-color: none;
+  box-shadow: none;
+}
+.login .login-form form input[disabled] {
+  cursor: not-allowed;
+  &:hover {
+    background-color: #067706;
+  }
+}
+.login .login-form form input:-webkit-autofill {
+  background-color: transparent !important;
+}
+.login .login-form form input + p {
+  color: red;
+}
+.login .login-form form .loader {
+  background-color: var(--main-color);
+  cursor: not-allowed;
+}
+.login .login-links a {
+  color: var(--main-color);
+}
+.login img {
+  @media (max-width: 768px) {
+    display: none;
+  }
+}

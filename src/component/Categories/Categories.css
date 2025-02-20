@@ -1,0 +1,21 @@
+.categories h2 {
+  color: var(--primary-color);
+}
+.categories .category {
+  box-shadow: rgba(0, 0, 0, 0.2) 3px 3px 8px,
+    rgba(255, 255, 255, 0.6) -12px -12px 8px;
+  cursor: pointer;
+}
+.categories .category p {
+  transition: 0.3s;
+}
+.categories .category:hover p {
+  color: var(--main-color);
+}
+
+.categories .category img {
+  width: 100%;
+  height: 100%;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}

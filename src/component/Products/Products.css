@@ -1,0 +1,37 @@
+.products h2 {
+  color: var(--primary-color);
+}
+.products .product {
+  box-shadow: rgba(0, 0, 0, 0.2) 3px 3px 8px,
+    rgba(255, 255, 255, 0.6) -12px -12px 8px;
+  overflow: hidden;
+}
+
+.products .product .product-show {
+  cursor: pointer;
+}
+.products .product .product-show h3 {
+  color: var(--main-color);
+}
+.products .product .product-show div p del {
+  color: red;
+}
+.products .product .product-show div p svg {
+  color: gold;
+}
+.products .product .product-action button {
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+.products .product .product-action button:nth-child(1) {
+  background-color: var(--main-color);
+  color: white;
+}
+.products .product .product-action button:nth-child(2) {
+  color: red;
+  background-color: transparent;
+}
+.products .product:hover .product-action button {
+  opacity: 1;
+  transform: translateY(5px);
+}

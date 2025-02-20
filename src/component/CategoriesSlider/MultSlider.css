@@ -1,0 +1,18 @@
+.categories-slider h2 {
+  color: var(--primary-color);
+}
+.categories-slider .category img {
+  width: 100%;
+  height: 200px;
+  filter: brightness(0.7);
+  transition: 0.3s;
+}
+.categories-slider .category p {
+  transition: 0.3s;
+}
+.categories-slider .category:hover p {
+  color: var(--main-color);
+}
+.categories-slider .category:hover img {
+  filter: brightness(1);
+}

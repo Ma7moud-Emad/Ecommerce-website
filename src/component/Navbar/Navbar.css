@@ -1,0 +1,77 @@
+nav.navbar {
+  background-color: #eee;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+button.navbar-toggler,
+button.navbar-toggler:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+  color: var(--main-color);
+}
+button.navbar-toggler[aria-expanded="true"] .fa-bars {
+  display: none;
+}
+button.navbar-toggler[aria-expanded="false"] .fa-xmark {
+  display: none;
+}
+
+.navbar .navbar-nav a {
+  color: var(--primary-color);
+  transition: 0.3s;
+}
+.navbar .navbar-nav a:hover {
+  color: black;
+}
+
+.log {
+  border: 3px solid var(--main-color);
+  transition: 0.3s;
+}
+.log:hover {
+  background-color: var(--main-color);
+}
+.log:hover a {
+  color: white;
+}
+.log a:focus {
+  border: none;
+}
+
+.cartANDlike a {
+  position: relative;
+}
+.cartANDlike a span {
+  position: absolute;
+  top: -9px;
+  background-color: red;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  left: -8px;
+  text-align: center;
+  line-height: 16px;
+  color: white;
+  font-size: 11px;
+}
+.cartANDlike svg {
+  color: var(--main-color);
+}
+
+.cartANDlike button {
+  background-color: var(--main-color);
+}
+
+/* active class NavLink */
+nav.navbar .active {
+  background-color: var(--main-color);
+  color: white;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+nav.navbar .active:hover {
+  background-color: rgb(10, 146, 10);
+  color: white;
+}
+/*  */
