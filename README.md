@@ -33,7 +33,11 @@ tosta, Loader spinner, Query, Slick ,Router and Sweetalertr2
    ```bash
    git clone https://github.com/Ma7moud-Emad/Ecommerce-website.git
    cd ecommerce-website
-2. code .
-3. npm install 
-4. npm run dev
+2. **open in visual studio code**:
+   ```bash
+   code .
+2. **open in terminal**:
+   ```bash
+   npm install
+   npm run dev
 
